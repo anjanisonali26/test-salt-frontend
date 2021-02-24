@@ -1,0 +1,9 @@
+a.list-group-item.list-group-item-action.flex-row.border-0.d-flex.primary-background.text-white {
+    background: #923d45;
+}
+small {
+    margin-left: 3px;
+}
+*{
+    color: white;
+}

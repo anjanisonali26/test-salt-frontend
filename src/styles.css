@@ -1,1 +1,103 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: #923d45;
+}
+section {
+  min-height: 100vh;
+}
+.primary-background-text {
+  color: #953e46;
+}
+.primary-background {
+  background-color: #953e46;
+}
+.secondary-background {
+  background-color: #f5e3cf;
+}
+.secondary-border-outline {
+  border: 2px solid #f5e3cf;
+}
+a {
+  color: white;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #f5e3cf;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.search:hover {
+  color: #953e46;
+}
+.btn:hover {
+  color: #953e46;
+}
+.list-group-item-action:hover,
+.list-group-item-action:focus {
+  z-index: 1;
+  color: #495057;
+  text-decoration: none;
+  background-color: #953e46;
+}
+
+.upload:hover {
+  background-color: #f5e3cf;
+  color: #953e46;
+  transition: 0.5s;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+.right-0 {
+  right: 0;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white;
+}
+.div-template-big {
+  min-height: 315px;
+}
+.div-template-small {
+  min-height: 150px;
+}
+.div-template-avatar {
+  height: auto;
+  width: 80px;
+}
+.icon {
+  font-size: 2.5rem;
+}
+.icon-small {
+  font-size: 2rem;
+}
+.icon-nav {
+  font-size: 1rem;
+}
+.search {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.navbar-brand {
+  font-size: 1.75rem !important;
+}
+
+@media (min-width: 376px) {
+  .nav-form {
+    width: 100%;
+  }
+  .div-template-small {
+    min-height: 315px !important ;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-form {
+    width: 500px !important;
+  }
+  .div-template-small {
+    min-height: 150px !important ;
+  }
+}
