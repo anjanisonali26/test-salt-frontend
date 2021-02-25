@@ -1,0 +1,9 @@
+a.mt-2.font-weight-light {
+    color: white;
+}
+.d-flex.justify-content-between.mt-3 {
+    color: white;
+}
+.row.mt-3.border-top.border-bottom.pt-3.pb-3 {
+    margin-left: 2px;
+}

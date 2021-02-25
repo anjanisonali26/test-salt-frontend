@@ -8,3 +8,9 @@ a{
     margin-right: 29%;
     margin-top: 7px;
 }
+i.fa.fa-upload.icon-small.mt-auto.mb-auto.ml-4 {
+    color: white;
+}
+h5.m-auto.ml-0 {
+    color: white;
+}

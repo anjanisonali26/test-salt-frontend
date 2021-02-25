@@ -1,67 +1,16 @@
 <div class="d-flex justify-content-between  mt-3">
     <h3>Channels</h3>
-    <a href="#" class="mt-2 font-weight-light">Browse All Channels</a>
+    <div class="txt">
+        <a href="#" class="mt-2 font-weight-light">Browse All Channels</a>
+    </div>
   </div>
   <div class="row mt-3 border-top border-bottom pt-3 pb-3">
-    <div class="col-md-6 mt-2" >
+    <div class="col-md-6 mt-2" *ngFor="let data of dataChanel">
         <div class="div-template-small">
-            <img src="../../../assets/images/d.jpg" style="max-width: 100%; max-height: 100%;">
+            <img src="{{data.download_url}}" style="max-width: 100%; max-height: 100%;">
             <p class="font-weight-bold  position-absolute bottom-0 primary-background-text  p-2">Google</p>
         </div>
     </div>
-    <div class="col-md-6 mt-2" >
-        <div class="div-template-small">
-            <img src="../../../assets/images/d.jpg" style="max-width: 100%; max-height: 100%;">
-            <p class="font-weight-bold  position-absolute bottom-0 primary-background-text  p-2">Google</p>
-        </div>
-    </div>
-    <div class="col-md-6 mt-2" >
-        <div class="div-template-small">
-            <img src="../../../assets/images/d.jpg" style="max-width: 100%; max-height: 100%;">
-            <p class="font-weight-bold  position-absolute bottom-0 primary-background-text  p-2">Google</p>
-        </div>
-    </div>
-    <div class="col-md-6 mt-2" >
-        <div class="div-template-small">
-            <img src="../../../assets/images/d.jpg" style="max-width: 100%; max-height: 100%;">
-            <p class="font-weight-bold  position-absolute bottom-0 primary-background-text  p-2">Google</p>
-        </div>
-    </div>
-    <div class="col-md-6 mt-2" >
-        <div class="div-template-small">
-            <img src="../../../assets/images/d.jpg" style="max-width: 100%; max-height: 100%;">
-            <p class="font-weight-bold  position-absolute bottom-0 primary-background-text  p-2">Google</p>
-        </div>
-    </div>
-    <div class="col-md-6 mt-2" >
-        <div class="div-template-small">
-            <img src="../../../assets/images/d.jpg" style="max-width: 100%; max-height: 100%;">
-            <p class="font-weight-bold  position-absolute bottom-0 primary-background-text  p-2">Google</p>
-        </div>
-    </div>
-    <div class="col-md-6 mt-2" >
-        <div class="div-template-small">
-            <img src="../../../assets/images/d.jpg" style="max-width: 100%; max-height: 100%;">
-            <p class="font-weight-bold  position-absolute bottom-0 primary-background-text  p-2">Google</p>
-        </div>
-    </div>
-    <div class="col-md-6 mt-2" >
-        <div class="div-template-small">
-            <img src="../../../assets/images/d.jpg" style="max-width: 100%; max-height: 100%;">
-            <p class="font-weight-bold  position-absolute bottom-0 primary-background-text  p-2">Google</p>
-        </div>
-    </div>
-    <div class="col-md-6 mt-2" >
-        <div class="div-template-small">
-            <img src="../../../assets/images/d.jpg" style="max-width: 100%; max-height: 100%;">
-            <p class="font-weight-bold  position-absolute bottom-0 primary-background-text  p-2">Google</p>
-        </div>
-    </div>
-    <div class="col-md-6 mt-2" >
-        <div class="div-template-small">
-            <img src="../../../assets/images/d.jpg" style="max-width: 100%; max-height: 100%;">
-            <p class="font-weight-bold  position-absolute bottom-0 primary-background-text  p-2">Google</p>
-        </div>
-    </div>
+   
   </div>
   

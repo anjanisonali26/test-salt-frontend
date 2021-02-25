@@ -1,6 +1,9 @@
 ol.breadcrumb.primary-background.mt-2.rounded-0 {
     background: #923d45;
 }
+ol.breadcrumb.primary-background.mt-2.rounded-0 li:hover {
+    background: #d18d94;
+}
 *{
     color: white;
 }

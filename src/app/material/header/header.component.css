@@ -7,3 +7,10 @@ a.navbar-brand.font-weight-bold {
 .ml-2.mt-auto.mb-auto {
     color: white;
 }
+form.my-2.my-lg-0 {
+    margin-right: 24px;
+}
+
+i.fa.fa-search {
+    color: white;
+}

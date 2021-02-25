@@ -11,6 +11,7 @@ import { VideosComponent } from './material/videos/videos.component';
 import { PeopleComponent } from './material/people/people.component';
 import { DocumentsComponent } from './material/documents/documents.component';
 import { ChannelsComponent } from './material/channels/channels.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ChannelsComponent } from './material/channels/channels.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

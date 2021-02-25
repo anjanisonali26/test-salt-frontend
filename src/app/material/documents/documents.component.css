@@ -4,3 +4,13 @@ h3 {
 a{
     color: white;
 }
+.doc{
+    margin-right: 29%;
+    margin-top: 7px;
+}
+h5.mt-auto.mr-auto.mb-auto.ml-0 {
+    color: white;
+}
+i.fa.fa-plus-circle.icon-small.m-auto{
+    color: white;
+}

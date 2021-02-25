@@ -1,3 +1,6 @@
 ol.breadcrumb.primary-background.border-top.border-bottom.rounded-0 {
     background: #923d45;
 }
+ol.breadcrumb.primary-background.border-top.border-bottom.rounded-0 li:hover {
+    background: #d18d94;
+}

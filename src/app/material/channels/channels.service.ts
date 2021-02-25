@@ -4,24 +4,20 @@ import { Observable, of } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 
 const routes = {
-  dummy: () => `https://dummyapi.io/data/api/user?page=3limit=5`,
+  dummy: () => `https://picsum.photos/v2/list?page=2&limit=16`,
 };
-
-const httpHeaders: HttpHeaders = new HttpHeaders({
-  'app-id': '600cdfdd15c37b3260d7206e'
-}); 
 
 @Injectable({
   providedIn: 'root'
 })
-export class ActivitiesService {
+export class ChannelsService {
 
   constructor(private httpClient: HttpClient) { }
 
-  getPeople(): Observable<string> {
-    return this.httpClient.get(routes.dummy(),{ headers: httpHeaders }).pipe(
+  getChannels(): Observable<string> {
+    return this.httpClient.get(routes.dummy()).pipe(
       map((body: any) => body),
-      catchError(() => of('Error:('))
+      catchError(() => of('error'))
     );
   }
 }
